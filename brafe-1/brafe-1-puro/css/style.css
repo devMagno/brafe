@@ -343,6 +343,13 @@ h2.products-mineiro::before {
 }
 
 @media (max-width: 739px) {
+  .menu {
+    text-align: center;
+  }
+  .menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
   .menu-nav {
     float: none;
     clear: both;
