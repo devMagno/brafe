@@ -305,3 +305,11 @@ h2.products-mineiro::before {
   margin: 0 10px;
   display: block;
 }
+
+@media (min-width: 740px) and (max-width: 980px) {
+
+}
+
+@media (max-width: 739px) {
+  }
+}
