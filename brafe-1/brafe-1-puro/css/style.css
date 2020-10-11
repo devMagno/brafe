@@ -280,3 +280,28 @@ h2.products-mineiro::before {
   outline: none;
   cursor: pointer;
 }
+
+.footer {
+  background: #D6D3C8;
+  padding: 40px 0;
+}
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
+}
