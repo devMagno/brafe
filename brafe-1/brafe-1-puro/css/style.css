@@ -164,3 +164,16 @@ h2.products-mineiro::before {
   font-size: 0.875em;
   line-height: 1.4rem;
 }
+.products-btn {
+  width: 180px;
+  border: 3px solid #252525;
+  color: #252525;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.125em;
+  margin: 20px auto 0 auto;
+  padding: 15px 0;
+}
