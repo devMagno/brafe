@@ -313,6 +313,13 @@ h2.products-mineiro::before {
   .about-item {
     width: 340px;
   }
+
+  .products-container {
+    max-width: 720px;
+  }
+  .products-item {
+    width: 220px;
+  }
 }
 
 @media (max-width: 739px) {
@@ -331,5 +338,12 @@ h2.products-mineiro::before {
   .about-item {
     width: 300px;
     margin: 0 auto;
+  }
+
+  .products-container {
+    max-width: 300px;
+  }
+  .products-item {
+    margin: 0 auto 20px auto;
   }
 }
