@@ -327,6 +327,19 @@ h2.products-mineiro::before {
   .local-item > div, .local-item img {
     width: 340px;
   }
+
+  .newsletter-container {
+    max-width: 720px;
+  }
+  .newsletter-info {
+    width: 340px;
+  }
+  .newsletter-form {
+    width: 340px;
+  }
+  .newsletter-form input {
+    width: 340px;
+  }
 }
 
 @media (max-width: 739px) {
@@ -359,5 +372,25 @@ h2.products-mineiro::before {
   }
   .local-item > div, .local-item img {
     width: 300px;
+  }
+
+  .newsletter-container {
+    max-width: 300px;
+  }
+  .newsletter-info, .newsletter-form, .newsletter-info input {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
+
+  .footer-container {
+    max-width: 300px
+  }
+  .footer p {
+    float: none;
+    margin: 0;
+  }
+  .footer img {
+    float: none;
+    margin: 10px 0;
   }
 }
