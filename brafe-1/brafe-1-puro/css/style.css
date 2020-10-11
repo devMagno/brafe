@@ -311,5 +311,12 @@ h2.products-mineiro::before {
 }
 
 @media (max-width: 739px) {
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+
+  .intro {
+    padding: 60px 0;
   }
 }
