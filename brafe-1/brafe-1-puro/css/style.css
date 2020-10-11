@@ -66,3 +66,51 @@ body {
   font-style: italic;
   font-size: 1.125em;
 }
+
+.about {
+  padding: 60px 0;
+}
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.about-container::after, .about-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.about h2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin-bottom: 60px;
+}
+.about-item {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+.about-item img {
+  display: block;
+  max-width: 100%;
+}
+.about-item h3 {
+  font-size: 2.25em;
+  line-height: 1em;
+  background-color: #252525;
+  width: 220px;
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  padding: 5px 0 10px 0;
+  position: relative;
+  top: -25px;
+}
+.about > p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 460px;
+}
