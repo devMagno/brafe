@@ -2,7 +2,6 @@ body, h1, h2, h3, p, ul {
   padding: 0;
   margin: 0;
 }
-
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #252525;
@@ -176,6 +175,11 @@ h2.products-mineiro::before {
   font-size: 1.125em;
   margin: 20px auto 0 auto;
   padding: 15px 0;
+  transition: all .2s ease-in-out;
+}
+.products-btn:hover {
+  background: #252525;
+  color: #E7E4D8;
 }
 
 .local {
@@ -221,6 +225,9 @@ h2.products-mineiro::before {
   color: #252525;
   border: 3px solid;
   padding: 10px 20px;
+}
+.local-item a:hover{
+
 }
 
 .newsletter {
