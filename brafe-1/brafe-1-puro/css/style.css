@@ -223,11 +223,13 @@ h2.products-mineiro::before {
   font-weight: bold;
   text-transform: uppercase;
   color: #252525;
-  border: 3px solid;
+  border: 3px solid #252525;
   padding: 10px 20px;
+  transition: all .2s ease-in-out;
 }
-.local-item a:hover{
-
+.local-item a:hover {
+	background-color: #252525;
+	color: white;
 }
 
 .newsletter {
