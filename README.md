@@ -7,8 +7,13 @@
 </p>
 
 ## 📖 Sobre   
+O projeto **Brafé** foi desenvolvido durante o curso de **CSS Avançado Posicionamento** da **Origamid**. Foram desenvolvidas **três páginas** diferentes, cada uma delas de **quatro formas diferentes**: 
+1. Com CSS "puro", definindo widths e utilizando float;
+2. Utilizando um sistema de Grid de 12 colunas feito com CSS;
+3. Utilizando a propriedade Flexbox do CSS;
+4. Utilizando o framework [Bootstrap 4](https://getbootstrap.com/).   
 
-
+Tudo isso com o intuito de aprender as **diferentes técnicas de layout com CSS3**.
 
 ---
 
