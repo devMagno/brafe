@@ -76,6 +76,12 @@ img {
 	font-style: italic;
 	font-size: 1.125em;
 }
+@media screen and (max-width: 739px) {
+	.intro {
+		padding: 60px 0;
+	}
+}
+
 
 .about h2 {
 	font-size: 2.25em;
