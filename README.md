@@ -1,6 +1,6 @@
-# Brafé  ☕
-
 <h2 align="center">⚠️Projeto em desenvolvimento⚠️</h2>
+
+# Brafé ☕
 
 <p align="center">
 <img src="https://i.imgur.com/z4YhTm8.png" alt="Brafé" title="Brafé">
@@ -33,7 +33,7 @@ git clone https://github.com/devMagno/brafe
 # Entre no diretório
 cd brafe
 ```
-Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
+Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do Visual Studio Code para criar um servidor local e executar o projeto.
 
 ---
 
