@@ -250,10 +250,16 @@ h2.products-mineiro::before {
 
 .footer {
 	background: #d6d3c8;
+	padding: 40px 0;
 }
 .footer p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+	margin: 0 10px;
+	flex: 1;
+}
+.footer img {
+	margin: 0 10px;
 }
 .footer a {
 	text-decoration: none;
