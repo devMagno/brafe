@@ -263,14 +263,6 @@ h2.products-mineiro::before {
 	flex-wrap: wrap;
 	align-content: flex-start;
 }
-@media screen and (max-width: 739px) {
-	.newsletter-info {
-		margin: 0 0 20px 0;
-	}
-	.newsletter-form {
-		margin: 0;
-	}
-}
 .newsletter-form label {
 	display: none;
 }
@@ -296,6 +288,14 @@ h2.products-mineiro::before {
 	cursor: pointer;
 	width: 140px;
 	padding: 13px;
+}
+@media screen and (max-width: 739px) {
+	.newsletter-info {
+		margin: 0 0 20px 0;
+	}
+	.newsletter-form {
+		margin: 0;
+	}
 }
 
 .footer {
