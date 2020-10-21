@@ -165,23 +165,36 @@ h2.products-mineiro::before {
   color: #E7E4D8;
 }
 
-
-.local-item h2 {
-	font-size: 2.25em;
+.local {
+	padding: 60px 0;
 }
-.local-item p {
+.local-img, .local-info {
+	flex: 1;
+	margin: 0 10px;
+}
+.local-item {
+	margin-bottom: 40px;
+}
+.local-info h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+.local-info p {
 	font-size: 1.125em;
 	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 40px;
 }
-.local-item a {
+.local-info a {
 	font-size: 1.125em;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #252525;
 	border: 3px solid #252525;
 	transition: all .2s ease-in-out;
+	padding: 10px 20px;
 }
-.local-item a:hover {
+.local-info a:hover {
 	background-color: #252525;
 	color: white;
 }
