@@ -22,16 +22,29 @@ img {
 
 .menu {
 	background: #252525;
+	padding: 20px 0;
 }
-
+.menu-nav {
+	flex: 1;
+	align-self: center;
+}
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
-  transition: all .2s;
+	transition: all .2s;
 }
 .menu-nav a:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+.menu-nav ul li a {
+	padding: 10px;
 }
 
 .intro {
