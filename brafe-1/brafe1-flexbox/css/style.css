@@ -109,9 +109,16 @@ img {
 	background: #e7e4d8;
 	border-top: 3px solid #d6d3c8;
 	border-bottom: 3px solid #d6d3c8;
+	padding: 60px 0;
+}
+.products-item {
+	margin: 0 10px 40px 10px;
+	flex: 1;
 }
 .products-item h2 {
 	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
 }
 .products-item h2::before {
 	content: '';
@@ -122,6 +129,7 @@ img {
 	border-radius: 50%;
 	border: 5px solid #e7e4d8;
 	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
 }
 h2.products-paulista::before {
 	color: #492901;
@@ -147,6 +155,10 @@ h2.products-mineiro::before {
 	font-weight: bold;
 	text-transform: uppercase;
 	transition: all .2s ease-in-out;
+	display: block;
+	width: 180px;
+	padding: 15px 0;
+	margin: 20px auto 0 auto;
 }
 .products-btn:hover {
   background: #252525;
