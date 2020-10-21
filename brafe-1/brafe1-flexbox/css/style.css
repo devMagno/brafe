@@ -293,6 +293,11 @@ h2.products-mineiro::before {
 .footer img {
 	margin: 0 10px;
 }
+@media screen and (max-width: 739px) {
+	.footer p, .footer img {
+		margin: 10px 0;
+	}
+}
 .footer a {
 	text-decoration: none;
 	color: #252525;
