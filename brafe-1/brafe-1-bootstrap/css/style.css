@@ -250,6 +250,9 @@ h2.products-mineiro::before {
 
 .footer {
 	background: #d6d3c8;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
 }
 .footer p {
 	font-size: 1.125em;
@@ -262,4 +265,13 @@ h2.products-mineiro::before {
 }
 .footer a:hover {
 	text-decoration: underline;
+}
+.footer img {
+	float: right;
+}
+@media screen and (max-width: 768px) {
+	.footer img {
+		float: none;
+		margin-top: 20px;
+	}
 }
