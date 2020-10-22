@@ -12,3 +12,15 @@ li {
 * {
   box-sizing: border-box;
 }
+
+
+.header-info {
+  font-size: 0.875em;
+  text-align: center;
+  background-color: #D6D3C8;
+  padding: 5px 0;
+}
+.header-logo img {
+  display: block;
+  margin: 40px auto;
+}
