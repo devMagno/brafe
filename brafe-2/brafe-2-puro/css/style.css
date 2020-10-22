@@ -158,3 +158,20 @@ span.flavour-5 {
   font-size: 0.875em;
   font-weight: normal;
 }
+
+.footer {
+  background-color: #E7E4D8;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin-top: 80px;
+}
+.footer a {
+	text-decoration: none;
+	color: #252525;
+	font-weight: bold;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
