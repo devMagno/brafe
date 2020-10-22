@@ -49,4 +49,40 @@ li {
 .header-nav ul li:first-child a::before {
   content: '';
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.filter {
+  background: #E7E4D8;
+  border: 3px solid #D6D3C8;
+  width: 300px;
+  margin: 0 10px;
+  padding: 20px;
+  float: left;
+}
+.filter h2 {
+  font-size: 1.125em;
+  padding: 10px 0;
+}
+.filter ul {
+  border-top: 3px solid #C0BEB4;
+  border-bottom: 3px solid #C0BEB4;
+  padding: 10px 0;
+}
+.filter ul li {
+  font-style: italic;
+  font-size: 1.125em;
+  line-height: 2;
+}
+.filter ul li::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #C0BEB4;
+  float: right;
+  margin-top: 5px;
 }
