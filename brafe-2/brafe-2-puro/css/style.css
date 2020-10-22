@@ -24,3 +24,29 @@ li {
   display: block;
   margin: 40px auto;
 }
+
+.header-nav {
+  border-top: 3px solid #D6D3C8;
+  border-bottom: 3px solid #D6D3C8;
+  text-align: center;
+  padding: 20px 0;
+}
+.header-nav ul li {
+  display: inline-block;
+}
+.header-nav ul li a {
+  display: block;
+  padding: 5px 10px 5px 0;
+  text-decoration: none;
+  color: #252525;
+  font-size: 1.125em;
+}
+.header-nav ul li a::before {
+  content: '•';
+  padding-right: 10px;
+  cursor: default;
+}
+.header-nav ul li:first-child a::before {
+  content: '';
+}
+}
