@@ -87,3 +87,33 @@ li {
   float: right;
   margin-top: 5px;
 }
+.flavour {
+  overflow: hidden;
+}
+.flavour span {
+  display: inline-block;
+  text-indent: -200px;
+  width: 15px;
+  height: 15px;
+  background-color: currentColor;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+span.flavour-3 {
+  color: #492901;
+  box-shadow: 20px 0 0 0 currentColor, 
+              40px 0 0 0 currentColor;
+}
+span.flavour-4 {
+  color: #C17139;
+  box-shadow: 20px 0 0 0 currentColor, 
+              40px 0 0 0 currentColor,
+              60px 0 0 0 currentColor;
+}
+span.flavour-5 {
+  color: #D7A54D;
+  box-shadow: 20px 0 0 0 currentColor, 
+              40px 0 0 0 currentColor,
+              60px 0 0 0 currentColor,
+              80px 0 0 0 currentColor;
+}
