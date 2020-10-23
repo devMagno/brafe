@@ -184,6 +184,13 @@ span.flavour-5 {
   .filter {
     width: 220px;
   }
+
+  .products {
+    width: 460px;
+  }
+  .products li {
+    width: 220px;
+  }
 }
 @media screen and (max-width: 739px) {
   .container {
@@ -192,5 +199,12 @@ span.flavour-5 {
 
   .filter {
     display: none;
+  }
+
+  .products {
+    width: 300px;
+  }
+  .products li {
+    width: 140px;
   }
 }
