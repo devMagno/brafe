@@ -55,6 +55,7 @@ li {
   background: #E7E4D8;
   border: 3px solid #D6D3C8;
   padding: 20px;
+  align-self: flex-start;
 }
 .filter h2 {
   font-size: 1.125em;
@@ -110,7 +111,7 @@ span.flavour-5 {
               60px 0 0 0 currentColor,
               80px 0 0 0 currentColor;
 }
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 768px) {
   .filter {
     display: none;
   }
