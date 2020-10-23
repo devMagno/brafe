@@ -180,9 +180,17 @@ span.flavour-5 {
   .container {
     width: 720px;
   }
+  
+  .filter {
+    width: 220px;
+  }
 }
 @media screen and (max-width: 739px) {
   .container {
     max-width: 300px;
+  }
+
+  .filter {
+    display: none;
   }
 }
