@@ -109,6 +109,11 @@ span.flavour-5 {
               60px 0 0 0 currentColor,
               80px 0 0 0 currentColor;
 }
+@media screen and (max-width: 739px) {
+  .filter {
+    display: none;
+  }
+}
 
 .products h1 {
   font-size: 3em;
