@@ -29,3 +29,16 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 739px) {
+  .flex {
+    max-width: 300px;
+    flex-direction: column;
+  }
+  .flex-item-4, .flex-item-8 {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    align-self: auto;
+  }
+}
