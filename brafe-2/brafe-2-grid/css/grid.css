@@ -8,18 +8,18 @@
   clear: both;
 }
 
-.grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7,.grid-8,.grid-9,.grid-10,.grid-11,.grid-12 {
+.grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7,.grid-8,.grid-9,.grid-10,.grid-11,.grid-12, .grid-mobile-6  {
   float: left;
   display: block;
   min-height: 1px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.row {
+.row, .row-mobile {
   margin-left: -10px;
   margin-right: -10px;
 }
-.row::after, .row::before {
+.row::after, .row::before, .row-mobile::after, .row-mobile::before {
   content: '';
   display: table;
   clear: both;
@@ -60,6 +60,10 @@
 }
 .grid-12 {
   width: calc(100% - 20px);
+}
+
+.grid-mobile-6 {
+  width: calc(50% - 20px);
 }
 
 @media (max-width: 739px) {
