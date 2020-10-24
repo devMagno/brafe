@@ -18,3 +18,30 @@ body {
   color: #252525;
   background-color: #E7E4D8;
 }
+
+.header {
+  background: #D6D3C8;
+  padding: 20px;
+}
+.header::after, .header::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-logo {
+  float: left;
+}
+.header-nav ul{
+  float: right;
+}
+.header-nav ul li {
+  display: inline-block;
+}
+.header-nav ul li a {
+  color: #252525;
+  font-size: 1.125em;
+  padding: 10px;
+}
+.header-nav ul li:first-child a{
+  padding-left: 0;
+}
