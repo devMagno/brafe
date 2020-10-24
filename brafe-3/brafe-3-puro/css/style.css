@@ -12,3 +12,9 @@ img {
   display: block;
   max-width: 100%;
 }
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #252525;
+  background-color: #E7E4D8;
+}
