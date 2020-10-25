@@ -171,3 +171,19 @@ main::after, main::before {
   display: inline-block;
   width: 70px;
 }
+
+.footer {
+  background: #D6D3C8;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+.footer a {
+	text-decoration: none;
+	color: #252525;
+	font-weight: bold;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
