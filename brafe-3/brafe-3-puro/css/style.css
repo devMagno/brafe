@@ -123,6 +123,10 @@ main {
   padding: 15px 20px;
   float: right;
   text-align: center;
+  transition: background-color .2s;
+}
+.products-header a:hover {
+  background-color: #a8612f;
 }
 .products-header::after, .products-header::before {
   content: '';
