@@ -72,6 +72,10 @@ main {
   border-bottom: 2px solid #484846;
   font-size: 1.125em;
   padding: 15px 20px 20px 20px;
+  transition: background .2s;
+}
+.side-nav ul li a:hover {
+  background: #494949;
 }
 .side-nav ul li a::before {
   content: '';
