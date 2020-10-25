@@ -124,3 +124,50 @@ main::after, main::before {
   display: table;
   clear: both;
 }
+.products-item {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+  margin-top: 20px;
+  position: relative;
+}
+.products-item::after, .products-item::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.products-item img {
+  float: left;
+}
+.products-item a {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  text-indent: -200px;
+  overflow: hidden;
+  background-image: url(../../img/edit.svg);
+  background-repeat: no-repeat;
+  top: 20px;
+  right: 20px;
+}
+.products-item a:hover {
+  background-image: url(../../img/edit-hover.svg);
+}
+.products-item ul {
+  float: left;
+  padding: 0 20px;
+  width: calc(100% - 140px);
+}
+.products-item ul li {
+  border-bottom: 1px solid #E7E4D8;
+  padding: 13px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
+}
+.products-item ul li:last-child {
+  border: none;
+}
+.products-item ul li span {
+  font-weight: bold;
+  display: inline-block;
+  width: 70px;
+}
