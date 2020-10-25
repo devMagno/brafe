@@ -185,9 +185,6 @@ body {
 	text-decoration: underline;
 }
 
-@media screen and (min-width: 740px) and (max-width: 980px) {
-
-}
 @media screen and (max-width: 739px) {
   .header {
     flex-direction: column;
