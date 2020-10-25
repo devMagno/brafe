@@ -44,6 +44,10 @@ body {
   color: #252525;
   font-size: 1.125em;
   padding: 10px;
+  transition: color .2s;
+}
+.header-nav ul li a:hover {
+  color: #979797;
 }
 .header-nav ul li:first-child a{
   padding-left: 0;
