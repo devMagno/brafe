@@ -32,7 +32,7 @@ Tudo isso com o intuito de aprender as **diferentes técnicas de layout com CSS3
 ---
 
 ## 🔧 Como executar o projeto
-
+Não há necessidade de executar o projeto, você pode visualizá-lo clicando nos links a seguir: [Brafé 1](https://devmagno.github.io/brafe/brafe-1/brafe-1-puro/index.html), [Brafé 2](https://devmagno.github.io/brafe/brafe-2/brafe-2-flexbox/index.html) e [Brafé 3](https://devmagno.github.io/brafe/brafe-3/brafe-3-flexbox/index.html), mas se ainda quiser fazê-lo, siga as instruções abaixo:
 ```bash
 # Clone o repositório
 git clone https://github.com/devMagno/brafe
