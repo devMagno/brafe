@@ -49,16 +49,18 @@ body {
   padding-left: 0;
 }
 
-main::after, main::before {
-  content: '';
-  display: table;
-  clear: both;
+main {
+  display: flex;
+}
+@media (max-width: 739px) {
+  main {
+    flex-direction: column;
+  }
 }
 
 .side-nav {
   width: 300px;
   background: #252525;
-  float: left;
 }
 .side-nav ul li a {
   display: block;
@@ -97,7 +99,6 @@ main::after, main::before {
 }
 
 .products {
-  float: left;
   width: calc(100% - 300px);
   margin: 0 auto;
   max-width: 960px;
