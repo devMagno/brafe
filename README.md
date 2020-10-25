@@ -1,5 +1,3 @@
-<h2 align="center">⚠️Projeto em desenvolvimento⚠️</h2>
-
 # Brafé ☕
 
 <p align="center">
@@ -18,7 +16,10 @@ Tudo isso com o intuito de aprender as **diferentes técnicas de layout com CSS3
 ---
 
 ## 🚀 Tecnologias e ferramentas utilizadas
-
+- **HTML5**
+- **CSS3**
+- **Bootstrap 4**
+- **[Brackets](http://brackets.io/)**
 
 
 ---
