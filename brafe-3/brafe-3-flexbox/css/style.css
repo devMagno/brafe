@@ -47,9 +47,16 @@ body {
   padding-left: 0;
 }
 
+.main-container {
+  display: flex;
+}
+
 
 .side-nav {
   background: #252525;
+  flex: 1;
+  max-width: 300px;
+  margin-right: 10px;
 }
 .side-nav ul li a {
   display: block;
