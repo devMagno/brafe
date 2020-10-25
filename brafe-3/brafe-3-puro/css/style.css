@@ -205,6 +205,10 @@ main {
   .side-nav {
     width: 200px;
   }
+
+  .products {
+    width: calc(100% - 200px);
+  }
 }
 @media screen and (max-width: 739px) {
   .header-logo, .header-nav ul {
@@ -239,5 +243,23 @@ main {
   }
   .side-nav ul li a:hover {
     color: #494949;
+  }
+
+  .products {
+    width: 100%;
+  }
+  .products-header h1, .products-header a {
+    float: none;
+  }
+  .products-header a {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .products-item img {
+    float: none;
+  }
+  .products-item ul {
+    float: none;
+    width: 100%;
   }
 }
