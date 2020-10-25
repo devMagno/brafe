@@ -49,6 +49,12 @@ body {
   padding-left: 0;
 }
 
+main::after, main::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .side-nav {
   width: 300px;
   background: #252525;
