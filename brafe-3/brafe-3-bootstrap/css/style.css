@@ -12,8 +12,11 @@ img {
   display: block;
   max-width: 100%;
 }
-a {
+a, a:hover {
   text-decoration: none;
+}
+h1 {
+  font-weight: bold;
 }
 
 body {
