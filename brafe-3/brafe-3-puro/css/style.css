@@ -159,7 +159,7 @@ main {
   overflow: hidden;
   background-image: url(../../img/edit.svg);
   background-repeat: no-repeat;
-  top: 20px;
+  top: 12px;
   right: 20px;
 }
 .products-item a:hover {
