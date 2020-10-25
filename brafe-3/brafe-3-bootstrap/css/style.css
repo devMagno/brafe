@@ -24,7 +24,11 @@ body {
 
 .header {
   background: #D6D3C8;
-  padding: 20px;
+  padding: 20px 0;
+}
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 .header-nav ul li a {
   color: #252525;
@@ -38,7 +42,11 @@ body {
 .header-nav ul li:first-child a{
   padding-left: 0;
 }
-
+@media screen and (max-width: 739px) { 
+  .header-nav ul {
+    margin-top: 10px;
+  }
+}
 
 .side-nav {
   background: #252525;
@@ -111,6 +119,7 @@ body {
     color: #252525;
     border-radius: 4px;
   }
+}
 
 .products {
   
