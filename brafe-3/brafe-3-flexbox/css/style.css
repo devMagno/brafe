@@ -25,6 +25,14 @@ body {
 .header {
   background: #D6D3C8;
   padding: 20px;
+  display: flex;
+}
+.header-logo {
+  flex-grow: 1;
+}
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 .header-nav ul li a {
   color: #252525;
