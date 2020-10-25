@@ -26,7 +26,7 @@ Tudo isso com o intuito de aprender as **diferentes técnicas de layout com CSS3
 ## 🖥️ Demonstração
 [![Brafé 1](https://i.imgur.com/6Myddo9.png "Clique para acessar o Brafé 1")](https://devmagno.github.io/brafe/brafe-1/brafe-1-puro/index.html "Clique para acessar o Brafé 1")
 [![Brafé 2](https://i.imgur.com/cPNaagc.png "Clique para acessar o Brafé 2")](https://devmagno.github.io/brafe/brafe-2/brafe-2-flexbox/index.html "Clique para acessar o Brafé 2")
-[![Brafé 3](https://i.imgur.com/UDoYUOR.png "Clique para acessar o Brafé 3")](https://devmagno.github.io/brafe/brafe-3/brafe-3-puro/index.html "Clique para acessar o Brafé 3")
+[![Brafé 3](https://i.imgur.com/UDoYUOR.png "Clique para acessar o Brafé 3")](https://devmagno.github.io/brafe/brafe-3/brafe-3-flexbox/index.html "Clique para acessar o Brafé 3")
 
 
 ---
